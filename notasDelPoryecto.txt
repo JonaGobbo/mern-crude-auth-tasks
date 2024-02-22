@@ -1,0 +1,9 @@
+21/02/2024
+Al momento del proyecto de una API plantilla para otros proyectos a futuro no crashea. La conexion a la DB es estable.
+
+El unico problema a resolver es la validacion de la ruta segura en el archivo ---> "C:\Users\Jona\Desktop\Proyectos\mern crud auth\src\middlewares\validateToken.js"
+en la linea 7.
+Como mencione esto no me crashea la app solo no me permite validar los tokens ya que no me reconoce el destructuring de la variable token. Posiblemente problema con la autentificacion de la biblioteca "cookie-parser".
+-------SOLUCIONADO------------
+22/02/2024:
+Finalizamos la base de la API !! Como desarrollo por cuenta propia aun me queda mucho que practicar pero estoy aprendiendo muchisimo con la tutoria de introducir el codigo y solucionar crasheos o fallas.
