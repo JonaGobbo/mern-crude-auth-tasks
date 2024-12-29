@@ -3,7 +3,7 @@ import { TOKEN_SECRET } from "../config.js";
 
 export const authRequired = (req, res, next) => {
   try {
-    // no desestructura la constante token porque no esta
+  
     const { token } = req.cookies;
 
     if (!token)
